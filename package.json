@@ -1,0 +1,25 @@
+{
+  "name": "testRepo",
+  "version": "1.0.0",
+  "description": "This is a in-class test to deploy things to Heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjoneil/testRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjoneil/testRepo/issues"
+  },
+  "homepage": "https://github.com/kjoneil/testRepo#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
